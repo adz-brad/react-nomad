@@ -1,0 +1,30 @@
+{
+  "name": "go-solutions-architecture",
+  "private": true,
+  "description": "Go! Website",
+  "version": "0.0.1",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "browser-monads": "^1.0.0",
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-type-animation": "^2.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gatsby-plugin-postcss": "^6.0.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}
